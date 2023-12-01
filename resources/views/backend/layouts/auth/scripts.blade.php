@@ -1,0 +1,9 @@
+<script src="assets-admin/libs/lucide/umd/lucide.min.js"></script>
+<script src="assets-admin/libs/simplebar/simplebar.min.js"></script>
+<script src="assets-admin/libs/flatpickr/flatpickr.min.js"></script>
+<script src="assets-admin/libs/@frostui/tailwindcss/frostui.js"></script>
+<script src="assets-admin/js/app.js"></script>
+<script src="assets-admin/js/lordico.js"></script>
+<script src="assets-admin/libs/sweetalert2/sweetalert2.all.min.js"></script> 
+<script src="assets-admin/js/pages/sweetalert.init.js"></script>
+<script src="assets-admin/js/confirm-pass.js"></script>
