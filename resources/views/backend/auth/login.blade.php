@@ -1,4 +1,4 @@
-@extends('backend.layouts.auth.auth')
+@extends('backend.layouts.main')
 
 @section('head')
 <title>Login</title>
@@ -6,47 +6,99 @@
 
 
 @section('content')
-
-<div class="w-full  m-auto bg-white dark:bg-slate-800/60 rounded shadow-lg ring-2 ring-slate-300/50 dark:ring-slate-700/50 lg:max-w-md">
-    <div class="text-center p-6 bg-slate-900 rounded-t">
-        <a href="/">
-            <lord-icon src="{{ asset('assets-admin/json/iglesi.json') }}" trigger="hover" colors="primary:#ffffff,secondary:#107c91" style="width:100px;height:100px">
-            </lord-icon>
+<div class="loginwrapper bg-cover bg-no-repeat bg-center" style="background-image: url(assets/images/all-img/page-bg.png);">
+  <div class="lg-inner-column">
+    <div class="left-columns lg:w-1/2 lg:block hidden">
+      <div class="logo-box-3">
+        <a heref="index.html" class="">
+          <img src="assets/images/logo/logo-white.svg" alt="">
         </a>
-        <h3 class="font-semibold text-white text-xl mb-1">Campamento Emanuel</h3>
-        <p class="text-xs text-slate-400">Ingresa tus datos de accesos.</p>
+      </div>
     </div>
-
-    <form class="p-6" action="{{ route('login.post') }}" method="POST">
-        @csrf
-        <div>
-            <label for="email" class="font-medium text-sm text-slate-600 dark:text-slate-400">Email</label>
-            <input type="email" id="email_address" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Tu correo" name="email" required autofocus>
-            @if ($errors->has('email'))
-            <span class="text-danger">{{ $errors->first('email') }}</span>
-            @endif
+    <div class="lg:w-1/2 w-full flex flex-col items-center justify-center">
+      <div class="auth-box-3">
+        <div class="mobile-logo text-center mb-6 lg:hidden block">
+          <a heref="index.html">
+            <img src="assets/images/logo/logo.svg" alt="" class="mb-10 dark_logo">
+            <img src="assets/images/logo/logo-white.svg" alt="" class="mb-10 white_logo">
+          </a>
         </div>
-        <div class="mt-4">
-            <label for="password" class="font-medium text-sm text-slate-600 dark:text-slate-400">Contraceña</label>
+        <div class="text-center 2xl:mb-10 mb-5">
+          <h4 class="font-medium">Acceder</h4>
+          <div class="text-slate-500 dark:text-slate-400 text-base">
+            Inicie sesión
+          </div>
+        </div>
+        <!-- BEGIN: Login Form -->
+        <form class="p-6" action="{{ route('login.post') }}" method="POST">
+          @csrf
+          <div class="fromGroup">
+            <label class="block capitalize form-label">email</label>
+            <div class="relative ">
+              <input type="email" id="email_address" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Tu correo" name="email" required autofocus>
+            </div>
+          </div>
+          <div class="fromGroup       ">
+            <label class="block capitalize form-label  ">passwrod</label>
             <input type="password" id="password" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Contraceña" name="password" required>
-            @if ($errors->has('password'))
-            <span class="text-danger">{{ $errors->first('password') }}</span>
-            @endif
-        </div>
-        <a href="#" class="text-xs font-medium text-brand-500 underline ">Forget Password?</a>
-        <div class="block mt-3">
-            <label class="custom-label block dark:text-slate-300">
-                <div class="bg-white dark:bg-slate-700  border border-slate-200 dark:border-slate-600 rounded w-4 h-4  inline-block leading-4 text-center -mb-[3px]">
-                    <input type="checkbox" class="hidden">
-                    <i class="fas fa-check hidden text-xs text-slate-700 dark:text-slate-200"></i>
-                </div>
-                Remember me
+          </div>
+          <div class="flex justify-between">
+            <label class="flex items-center cursor-pointer">
+              <input type="checkbox" class="hiddens">
+              <span class="text-slate-500 dark:text-slate-400 text-sm leading-6 capitalize">Keep me signed in</span>
             </label>
+            <a class="text-sm text-slate-800 dark:text-slate-400 leading-6 font-medium" href="forget-password-one.html">Forgot
+              Password?
+            </a>
+          </div>
+          <button class="btn btn-dark block w-full text-center">Sign in</button>
+        </form>
+        <!-- END: Login Form -->
+        <div class=" relative border-b-[#9AA2AF] border-opacity-[16%] border-b pt-6">
+          <div class=" absolute inline-block bg-white dark:bg-slate-800 dark:text-slate-400 left-1/2 top-1/2 transform -translate-x-1/2
+                                px-4 min-w-max text-sm text-slate-500 dark:text-slate-400font-normal ">
+            Or continue with
+          </div>
         </div>
-        <div class="mt-4">
-            <button class="w-full px-2 py-2 tracking-wide text-white transition-colors duration-200 transform bg-brand-500 rounded hover:bg-brand-600 focus:outline-none focus:bg-brand-600">
-                Login
-            </button>
+        <div class="max-w-[242px] mx-auto mt-8 w-full">
+
+          <!-- BEGIN: Social Log in Area -->
+          <ul class="flex">
+            <li class="flex-1">
+              <a href="#" class="inline-flex h-10 w-10 bg-[#1C9CEB] text-white text-2xl flex-col items-center justify-center rounded-full">
+                <img src="assets/images/icon/tw.svg" alt="">
+              </a>
+            </li>
+            <li class="flex-1">
+              <a href="#" class="inline-flex h-10 w-10 bg-[#395599] text-white text-2xl flex-col items-center justify-center rounded-full">
+                <img src="assets/images/icon/fb.svg" alt="">
+              </a>
+            </li>
+            <li class="flex-1">
+              <a href="#" class="inline-flex h-10 w-10 bg-[#0A63BC] text-white text-2xl flex-col items-center justify-center rounded-full">
+                <img src="assets/images/icon/in.svg" alt="">
+              </a>
+            </li>
+            <li class="flex-1">
+              <a href="#" class="inline-flex h-10 w-10 bg-[#EA4335] text-white text-2xl flex-col items-center justify-center rounded-full">
+                <img src="assets/images/icon/gp.svg" alt="">
+              </a>
+            </li>
+          </ul>
+          <!-- END: Social Log In Area -->
         </div>
-    </form>
-    @endsection
+        <div class="mx-auto font-normal text-slate-500 dark:text-slate-400 2xl:mt-12 mt-6 uppercase text-sm text-center">
+          Already registered?
+          <a href="signup-one.html" class="text-slate-900 dark:text-white font-medium hover:underline">
+            Sign In
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="auth-footer3 text-black py-5 px-5 text-xl w-full">
+      Unlock your Project performance
+    </div>
+  </div>
+</div>
+
+@endsection

@@ -4,5 +4,5 @@
 <title>Dashcode - HTML Template</title>
 
 <!-- End : Theme CSS-->
-<script src="{{ asset('assets-admin/js/settings.js') }}" sync></script>
+<script src="{{ asset('assets-backend/js/settings.js') }}" sync></script>
 @yield('head')
