@@ -6,12 +6,12 @@
 
 
 @section('content')
-<div class="loginwrapper bg-cover bg-no-repeat bg-center" style="background-image: url(assets/images/all-img/page-bg.png);">
+<div class="loginwrapper bg-cover bg-no-repeat bg-center" style="background-image: url(/images/1.jpeg);">
   <div class="lg-inner-column">
     <div class="left-columns lg:w-1/2 lg:block hidden">
       <div class="logo-box-3">
         <a heref="index.html" class="">
-          <img src="assets/images/logo/logo-white.svg" alt="">
+          <img src="assets-backend/images/logo/logo-white.svg" alt="">
         </a>
       </div>
     </div>
@@ -19,8 +19,8 @@
       <div class="auth-box-3">
         <div class="mobile-logo text-center mb-6 lg:hidden block">
           <a heref="index.html">
-            <img src="assets/images/logo/logo.svg" alt="" class="mb-10 dark_logo">
-            <img src="assets/images/logo/logo-white.svg" alt="" class="mb-10 white_logo">
+            <img src="assets-backend/images/logo/logo.svg" alt="" class="mb-10 dark_logo">
+            <img src="assets-backend/images/logo/logo-white.svg" alt="" class="mb-10 white_logo">
           </a>
         </div>
         <div class="text-center 2xl:mb-10 mb-5">
@@ -66,22 +66,22 @@
           <ul class="flex">
             <li class="flex-1">
               <a href="#" class="inline-flex h-10 w-10 bg-[#1C9CEB] text-white text-2xl flex-col items-center justify-center rounded-full">
-                <img src="assets/images/icon/tw.svg" alt="">
+                <img src="assets-backend/images/icon/tw.svg" alt="">
               </a>
             </li>
             <li class="flex-1">
               <a href="#" class="inline-flex h-10 w-10 bg-[#395599] text-white text-2xl flex-col items-center justify-center rounded-full">
-                <img src="assets/images/icon/fb.svg" alt="">
+                <img src="assets-backend/images/icon/fb.svg" alt="">
               </a>
             </li>
             <li class="flex-1">
               <a href="#" class="inline-flex h-10 w-10 bg-[#0A63BC] text-white text-2xl flex-col items-center justify-center rounded-full">
-                <img src="assets/images/icon/in.svg" alt="">
+                <img src="assets-backend/images/icon/in.svg" alt="">
               </a>
             </li>
             <li class="flex-1">
               <a href="#" class="inline-flex h-10 w-10 bg-[#EA4335] text-white text-2xl flex-col items-center justify-center rounded-full">
-                <img src="assets/images/icon/gp.svg" alt="">
+                <img src="assets-backend/images/icon/gp.svg" alt="">
               </a>
             </li>
           </ul>
@@ -96,7 +96,7 @@
       </div>
     </div>
     <div class="auth-footer3 text-black py-5 px-5 text-xl w-full">
-      Unlock your Project performance
+      Sindicato de Transporte Guayaramerin
     </div>
   </div>
 </div>

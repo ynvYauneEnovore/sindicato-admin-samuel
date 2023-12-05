@@ -430,7 +430,7 @@
     <!-- Settings Toggle Button -->
     <button class="fixed ltr:md:right-[-29px] ltr:right-0 rtl:left-0 rtl:md:left-[-29px] top-1/2 z-[888] translate-y-1/2 bg-slate-800 text-slate-50 dark:bg-slate-700 dark:text-slate-300 cursor-pointer transform rotate-90 flex items-center text-sm font-medium px-2 py-2 shadow-deep ltr:rounded-b rtl:rounded-t" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
         <iconify-icon class="text-slate-50 text-lg animate-spin" icon="material-symbols:settings-outline-rounded"></iconify-icon>
-        <span class="hidden md:inline-block ltr:ml-2 rtl:mr-2">Settings</span>
+        <span class="md:inline-block ltr:ml-2 rtl:mr-2">Settings</span>
     </button>
 
     <!-- BEGIN: Settings Modal -->
@@ -577,8 +577,7 @@
                             <button class="flex items-center xl:text-sm text-lg xl:text-slate-400 text-slate-800 dark:text-slate-300 px-1
         rtl:space-x-reverse search-modal" data-bs-toggle="modal" data-bs-target="#searchModal">
                                 <iconify-icon icon="heroicons-outline:search"></iconify-icon>
-                                <span class="xl:inline-block hidden ml-3">Search...
-                                </span>
+
                             </button>
 
                         </div>
