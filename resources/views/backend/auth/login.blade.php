@@ -1,4 +1,4 @@
-@extends('backend.layouts.main')
+@extends('backend.layouts.auth.main')
 
 @section('head')
 <title>Login</title>
@@ -6,12 +6,12 @@
 
 
 @section('content')
-<div class="loginwrapper bg-cover bg-no-repeat bg-center" style="background-image: url(/images/1.jpeg);">
+<div class="loginwrapper bg-cover bg-no-repeat bg-center" style="background-color: #fff;">
   <div class="lg-inner-column">
     <div class="left-columns lg:w-1/2 lg:block hidden">
       <div class="logo-box-3">
         <a heref="index.html" class="">
-          <img src="assets-backend/images/logo/logo-white.svg" alt="">
+          <img src="images/logo.png" alt="" class="mb-10 dark_logo">
         </a>
       </div>
     </div>
@@ -19,8 +19,8 @@
       <div class="auth-box-3">
         <div class="mobile-logo text-center mb-6 lg:hidden block">
           <a heref="index.html">
-            <img src="assets-backend/images/logo/logo.svg" alt="" class="mb-10 dark_logo">
-            <img src="assets-backend/images/logo/logo-white.svg" alt="" class="mb-10 white_logo">
+            <img src="images/logo.png" alt="" class="mb-10 dark_logo">
+            <img src="images/logo.png" alt="" class="mb-10 dark_logo">
           </a>
         </div>
         <div class="text-center 2xl:mb-10 mb-5">
