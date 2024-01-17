@@ -3,9 +3,9 @@
     <div id="bodyOverlay" class="w-screen h-screen fixed top-0 bg-slate-900 bg-opacity-50 backdrop-blur-sm z-10 hidden"></div>
     <div class="logo-segment">
         <a class="flex items-center" href="index.html">
-            <img src="assets-backend/images/logo/logo-c.svg" class="black_logo" alt="logo">
-            <img src="assets-backend/images/logo/logo-c-white.svg" class="white_logo" alt="logo">
-            <span class="ltr:ml-3 rtl:mr-3 text-xl font-Inter font-bold text-slate-900 dark:text-white">DashCode</span>
+            <img src="images/road.svg" class="black_logo" alt="logo">
+            <img src="images/roadW.svg" class="white_logo" alt="logo">
+            <span class="ltr:ml-3 rtl:mr-3 text-xl font-Inter font-bold text-slate-900 dark:text-white">Transportegya</span>
         </a>
         <!-- Sidebar Type Button -->
         <div id="sidebar_type" class="cursor-pointer text-slate-900 dark:text-white text-lg">
@@ -26,18 +26,12 @@
         <ul class="sidebar-menu">
             <li class="sidebar-menu-title">MENU</li>
             <li class="">
-                <a href="#" class="navItem">
+                <a href="{{ route('dashboard') }}" class="navItem">
                     <span class="flex items-center">
                         <iconify-icon class=" nav-icon" icon="heroicons-outline:home"></iconify-icon>
-                        <span>Dashboard</span>
+                        <span>Inicio</span>
                     </span>
-                    <iconify-icon class="icon-arrow" icon="heroicons-outline:chevron-right"></iconify-icon>
                 </a>
-                <ul class="sidebar-submenu">
-                    <li>
-                        <a href="index.html">Analytics Dashboard</a>
-                    </li>
-                </ul>
             </li>
 
             <li class="">
@@ -58,18 +52,75 @@
                 </ul>
             </li>
 
+            <li class="">
+                <a href="#" class="navItem">
+                    <span class="flex items-center">
+                        <iconify-icon class="nav-icon" icon="heroicons-outline:users"></iconify-icon>
+                        <span>Rutas</span>
+                    </span>
+                    <iconify-icon class="icon-arrow" icon="heroicons-outline:chevron-right"></iconify-icon>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li>
+                        <a href="{{ route('backend.asociado.index') }}">Lista</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('backend.asociado.create') }}">Crear</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="">
+                <a href="#" class="navItem">
+                    <span class="flex items-center">
+                        <iconify-icon class="nav-icon" icon="heroicons-outline:users"></iconify-icon>
+                        <span>Contabilidad</span>
+                    </span>
+                    <iconify-icon class="icon-arrow" icon="heroicons-outline:chevron-right"></iconify-icon>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li>
+                        <a href="{{ route('backend.asociado.index') }}">Lista</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('backend.asociado.create') }}">Crear</a>
+                    </li>
+                </ul>
+            </li>
+
+            
+            <li class="">
+                <a href="#" class="navItem">
+                    <span class="flex items-center">
+                        <iconify-icon class="nav-icon" icon="heroicons-outline:users"></iconify-icon>
+                        <span>Reportes</span>
+                    </span>
+                    <iconify-icon class="icon-arrow" icon="heroicons-outline:chevron-right"></iconify-icon>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li>
+                        <a href="{{ route('backend.asociado.index') }}">Lista</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('backend.asociado.create') }}">Crear</a>
+                    </li>
+                </ul>
+            </li>
+
+        
+
             <!-- Upgrade Your Business Plan Card Start -->
             <div class="bg-slate-900 mb-10 mt-24 p-4 relative text-center rounded-2xl text-white" id="sidebar_bottom_wizard">
-                <img src="assets-backend/images/svg/rabit.svg" alt="" class="mx-auto relative -mt-[73px]">
+                <img src="images/ruta.svg" alt="" class="mx-auto relative -mt-[73px]">
                 <div class="max-w-[160px] mx-auto mt-6">
-                    <div class="widget-title font-Inter mb-1">Unlimited Access</div>
+                    <div class="widget-title font-Inter mb-1">Rutas</div>
                     <div class="text-xs font-light font-Inter">
-                        Upgrade your system to business plan
+                       Ver detalles de las rutas en movimiento.
                     </div>
                 </div>
                 <div class="mt-6">
                     <button class="bg-white hover:bg-opacity-80 text-slate-900 text-sm font-Inter rounded-md w-full block py-2 font-medium">
-                        Upgrade
+                        Ver
                     </button>
                 </div>
             </div>

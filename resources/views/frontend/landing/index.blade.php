@@ -6,16 +6,14 @@
 
 @section('content')
 
-
-
-<div class="page-wrapper relative z-[1] bg-black text-white">
+<div class="page-wrapper relative z-[1] text-black">
     <!--...::: Header Start :::... -->
     <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
         <div class="global-container">
             <div class="flex items-center justify-between gap-x-8">
                 <!-- Header Logo -->
                 <a href="index.html" class="">
-                    <img src="assets-frontend/img/logo-light.png" alt="AIMass" width="96" height="24" />
+                    <img src="images/grug.svg" alt="AIMass" width="96" height="24" />
                 </a>
                 <!-- Header Logo -->
 
@@ -31,8 +29,11 @@
                             <div class="mobile-menu-close">&times;</div>
                         </div>
                         <ul class="site-menu-main is-text-white">
+                        <li class="nav-item">
+                                <a href="about.html" class="nav-link-item">Inicio</a>
+                            </li>
                             <li class="nav-item nav-item-has-children">
-                                <a href="#" class="nav-link-item drop-trigger">Demo
+                                <a href="#" class="nav-link-item drop-trigger">Servicios
                                     <img class="dropdown-icon" src="assets-frontend/img/icon-black-cheveron-right.svg" alt="cheveron-right" width="16" height="16" /></a>
                                 <ul class="sub-menu" id="submenu-1">
                                     <li class="sub-menu--item">
@@ -49,11 +50,9 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a href="about.html" class="nav-link-item">About</a>
-                            </li>
+                          
                             <li class="nav-item nav-item-has-children">
-                                <a href="#" class="nav-link-item drop-trigger">Services
+                                <a href="#" class="nav-link-item drop-trigger">Nosotros
                                     <img class="dropdown-icon" src="assets-frontend/img/icon-black-cheveron-right.svg" alt="cheveron-right" width="16" height="16" /></a>
                                 <ul class="sub-menu" id="submenu-2">
                                     <li class="sub-menu--item">
@@ -65,7 +64,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item nav-item-has-children">
-                                <a href="#" class="nav-link-item drop-trigger">Pages
+                                <a href="#" class="nav-link-item drop-trigger">Politicas
                                     <img class="dropdown-icon" src="assets-frontend/img/icon-black-cheveron-right.svg" alt="cheveron-right" width="16" height="16" /></a>
                                 <ul class="sub-menu" id="submenu-3">
                                     <li class="sub-menu--item nav-item-has-children">
@@ -146,7 +145,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link-item">Contact</a>
+                                <a href="contact.html" class="nav-link-item">Contactos</a>
                             </li>
                         </ul>
                     </nav>
@@ -173,15 +172,17 @@
         <section id="hero-section">
             <div class="relative z-[1] overflow-hidden text-center text-white">
                 <!-- Section Spacer -->
-                <div class="bg-cover bg-no-repeat pb-20 pt-28 md:pb-[265px] md:pt-40 lg:pt-44 xl:pt-[224px]" style="background-image: url('{{ asset('images/1.jpeg') }}')">
+                <div class="bg-cover bg-no-repeat pb-20 pt-28 md:pb-[265px] md:pt-40 lg:pt-44 xl:pt-[224px]" style="background-image: url('{{ asset('images/3.jpeg') }}')">
                     <!-- Section Container -->
                     <div class="global-container">
                         <h1 class="jos mb-6 font-spaceGrotesk leading-none -tracking-[3px] text-white">
-                            Sindicato de Transporte Guayaramerin
+                            Sindicato de Transporte
                         </h1>
                         <div class="mx-auto max-w-[1090px]">
-                            <p class="leading-[1.33] lg:text-xl xl:text-2xl">
-                                Descubre nuestros logros, eventos y noticias del sector del transporte explorando nuestro sitio. Únete a nosotros para fortalecer la comunidad y luchar juntos por un futuro más justo y próspero.
+                            <p class="leading-[1.33] lg:text-xl xl:text-2xl bg-black rounded-full" style="padding: 20px;">
+                                Descubre nuestros logros, eventos y noticias del sector del transporte  <br>
+                                explorando nuestro sitio. Únete a nosotros para fortalecer la comunidad  <br>
+                                y luchar juntos por un futuro más justo y próspero.
                             </p>
                         </div>
                         <form action="#" method="post" class="jos mt-11 text-base font-bold">
@@ -217,10 +218,10 @@
                 <!-- Section Container -->
                 <div class="global-container">
                     <ul class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-                        <li class="jos rounded-[10px] bg-[#121212] p-[30px] text-white" data-jos_delay="0.1">
+                        <li class="jos rounded-[10px] bg-colorGreen p-[30px] text-white" data-jos_delay="0.1">
                             <div class="mb-6 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
-                                    <img src="assets-frontend/img/th-4/icon-green-promo-1.svg" alt="icon-black-promo" width="50" height="50" class="h-full w-auto" />
+                                    <img src="images/logro.svg" alt="icon-black-promo" width="50" height="50" class="h-full w-auto" />
                                 </div>
                                 <div class="flex-1 font-spaceGrotesk text-3xl leading-[1.33]">
                                     Logros Laborales
@@ -230,10 +231,10 @@
                                 Explora los logros colectivos que hemos alcanzado como sindicato para mejorar las condiciones laborales en el transporte de autos.
                             </p>
                         </li>
-                        <li class="jos rounded-[10px] bg-[#121212] p-[30px] text-white" data-jos_delay="0.2">
+                        <li class="jos rounded-[10px] bg-colorGreen p-[30px] text-white" data-jos_delay="0.2">
                             <div class="mb-6 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
-                                    <img src="assets-frontend/img/th-4/icon-green-promo-2.svg" alt="icon-black-promo" width="50" height="50" class="h-full w-auto" />
+                                    <img src="images/noticia.svg" alt="icon-black-promo" width="50" height="50" class="h-full w-auto" />
                                 </div>
                                 <div class="flex-1 font-spaceGrotesk text-3xl leading-[1.33]">
                                     Noticias del Transporte
@@ -243,10 +244,10 @@
                                 Accede a las últimas noticias del sector del transporte de autos y cómo impactan en nuestros miembros y sus derechos laborales.
                             </p>
                         </li>
-                        <li class="jos rounded-[10px] bg-[#121212] p-[30px] text-white" data-jos_delay="0.3">
+                        <li class="jos rounded-[10px] bg-colorGreen p-[30px] text-white" data-jos_delay="0.3">
                             <div class="mb-6 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
-                                    <img src="assets-frontend/img/th-4/icon-green-promo-3.svg" alt="icon-black-promo" width="50" height="50" class="h-full w-auto" />
+                                    <img src="images/seguridad.svg" alt="icon-black-promo" width="50" height="50" class="h-full w-auto" />
                                 </div>
                                 <div class="flex-1 font-spaceGrotesk text-3xl leading-[1.33]">
                                     Seguridad y Bienestar
@@ -272,13 +273,13 @@
                     <div class="grid items-center gap-10 md:grid-cols-[minmax(0,_1fr)_1.3fr] lg:gap-[60px] xl:gap-x-[94px]">
                         <div class="jos" data-jos_animation="fade-left">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="assets-frontend/img/th-4/content-img-1.jpg" alt="content-img-2" width="550" height="550" class="h-auto w-full" />
+                                <img src="images/2.jpeg" alt="content-img-2" width="550" height="550" class="h-auto w-full" />
                             </div>
                         </div>
                         <div class="jos" data-jos_animation="fade-right">
                             <!-- Section Content Block -->
                             <div class="mb-6">
-                                <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]">
+                                <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[70px]">
                                     Securing networks, servers and data
                                 </h2>
                             </div>
@@ -631,20 +632,20 @@
                     <div class="mb-10 flex flex-wrap items-center justify-between gap-8 md:mb-16 lg:mb-20">
                         <!-- Section Content Block -->
                         <div class="jos max-w-[480px] lg:max-w-2xl xl:max-w-[840px]">
-                            <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]">
-                                What people are saying about AI cybersecurity
+                            <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[70px]">
+                               Rutas en movimiento
                             </h2>
                         </div>
                         <!-- Section Content Block -->
-                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="button inline-block h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white">Read
-                            All Trustpilot Reviews</a>
+                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="button inline-block h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white">
+                            Ver más detalles</a>
                     </div>
                 </div>
                 <!-- Section Container -->
                 <!-- Testimonial List -->
                 <div class="horizontal-slide-from-right-to-left grid w-[200%] grid-flow-col gap-6">
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
@@ -668,7 +669,7 @@
                     </div>
                     <!-- Testimonial Item -->
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
@@ -693,7 +694,7 @@
                     </div>
                     <!-- Testimonial Item -->
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
@@ -717,7 +718,7 @@
                     </div>
                     <!-- Testimonial Item -->
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
@@ -868,208 +869,8 @@
         </section>
         <!--...::: Testimonial Section End :::... -->
 
-        <!--...::: CTA Section Start :::... -->
-        <section id="cta-section">
-            <div class="global-container">
-                <div class="rounded-[10px] bg-colorGreen px-5 py-[60px] md:py-20 xl:py-[100px]">
-                    <!-- Section Content Block -->
-                    <div class="jos mx-auto max-w-[500px] text-center lg:max-w-2xl xl:max-w-[840px]">
-                        <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[70px]">
-                            Protect your organization with the power of AI
-                        </h2>
-                    </div>
-                    <!-- Section Content Block -->
-
-                    <div class="jos mt-8 flex flex-wrap justify-center gap-6 md:mt-[50px]" data-jos_animation="fade">
-                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="button inline-block h-full rounded border-2 border-transparent bg-black py-3 text-base text-colorGreen after:border-colorGreen after:bg-colorGreen hover:text-black">Get
-                            Started Now</a>
-                        <a href="pricing.html" class="button inline-block h-full rounded border-2 border-black bg-colorGreen py-3 text-base text-black after:bg-black hover:text-colorGreen">View
-                            Our Plans</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--...::: CTA Section End :::... -->
     </main>
 
-    <!--...::: Footer-2 Section Start :::... -->
-    <footer id="footer-4">
-        <div class="relative z-[1] overflow-hidden bg-black text-white">
-            <!-- Section Container -->
-            <div class="pb-10">
-                <!-- Footer Center -->
-                <div class="mt-[100px]">
-                    <!-- Section Container -->
-                    <div class="global-container">
-                        <!-- Footer Widgets Block -->
-                        <div class="grid gap-x-10 gap-y-[60px] sm:grid-cols-2 md:grid-cols-4 lg:flex lg:justify-between lg:gap-x-20">
-                            <!-- Footer Widget -->
-                            <div class="flex flex-col gap-y-6">
-                                <!-- Footer Title -->
-                                <h4 class="text-[21px] font-semibold capitalize text-white">
-                                    Primary Pages
-                                </h4>
-                                <!-- Footer Title -->
-
-                                <!-- Footer Navbar -->
-                                <ul class="flex flex-col gap-y-[10px] capitalize">
-                                    <li>
-                                        <a href="index.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">About
-                                            Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="services.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="pricing.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">pricing</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Footer Widget -->
-                            <!-- Footer Widget Item -->
-                            <div class="flex flex-col gap-y-6">
-                                <!-- Footer Title -->
-                                <h4 class="text-[21px] font-semibold capitalize text-white">
-                                    Utility pages
-                                </h4>
-                                <!-- Footer Title -->
-
-                                <!-- Footer Navbar -->
-                                <ul class="flex flex-col gap-y-[10px] capitalize">
-                                    <li>
-                                        <a href="signup.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">Signup</a>
-                                    </li>
-                                    <li>
-                                        <a href="login.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">Login</a>
-                                    </li>
-                                    <li>
-                                        <a href="error-404.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">404
-                                            Not found</a>
-                                    </li>
-                                    <li>
-                                        <a href="reset-password.html" class="transition-all duration-300 ease-linear hover:text-colorGreen">Password
-                                            Reset</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Footer Widget Item -->
-
-                            <!-- Footer Widget Item -->
-                            <div class="flex flex-col gap-y-6">
-                                <!-- Footer Title -->
-                                <h4 class="text-[21px] font-semibold capitalize text-white">
-                                    Technical Resources
-                                </h4>
-                                <!-- Footer Title -->
-
-                                <!-- Footer Navbar -->
-                                <ul class="flex flex-col gap-y-[10px] capitalize">
-                                    <li>
-                                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="transition-all duration-300 ease-linear hover:text-colorGreen">URL
-                                            Categorization</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="transition-all duration-300 ease-linear hover:text-colorGreen">Advisories</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="transition-all duration-300 ease-linear hover:text-colorGreen">Security
-                                            Check Up</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="transition-all duration-300 ease-linear hover:text-colorGreen">User
-                                            Center</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="transition-all duration-300 ease-linear hover:text-colorGreen">App
-                                            Version</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Footer Widget Item -->
-                            <!-- Footer Widget Item -->
-                            <div class="flex flex-col gap-y-6">
-                                <!-- Footer Title -->
-                                <h4 class="text-[21px] font-semibold capitalize text-white">
-                                    Socials
-                                </h4>
-                                <!-- Footer Title -->
-
-                                <!-- Footer Navbar -->
-                                <ul class="flex flex-col gap-y-[15px] capitalize">
-                                    <li>
-                                        <a href="http://www.facebook.com" class="group flex items-center gap-x-3">
-                                            <div class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600">
-                                                <img src="assets-frontend/img/th-1/facebook-icon-white.svg" alt="facebook-icon-white" width="14" height="14" />
-                                            </div>
-                                            <span class="inline-block flex-1">Facebook</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.twitter.com" class="group flex items-center gap-x-3">
-                                            <div class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600">
-                                                <img src="assets/img/th-1/twitter-icon-white.svg" alt="twitter-icon-white" width="14" height="14" />
-                                            </div>
-                                            <span class="inline-block flex-1">Twitter</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.instagram.com" class="group flex items-center gap-x-3">
-                                            <div class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600">
-                                                <img src="assets/img/th-1/instagram-icon-white.svg" alt="instagram-icon-white" width="14" height="14" />
-                                            </div>
-                                            <span class="inline-block flex-1">Instagram</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.linkedin.com" class="group flex items-center gap-x-3">
-                                            <div class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600">
-                                                <img src="assets/img/th-1/linkedin-icon-white.svg" alt="linkedin-icon-white" width="14" height="14" />
-                                            </div>
-                                            <span class="inline-block flex-1">Linkedin</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Footer Widget Item -->
-                        </div>
-                        <!-- Footer Widgets Block -->
-                    </div>
-                    <!-- Section Container -->
-                </div>
-                <!-- Footer Center -->
-
-                <!-- Footer Separator -->
-                <div class="global-container">
-                    <div class="mb-10 mt-[60px] h-[1px] w-full bg-white opacity-10"></div>
-                </div>
-                <!-- Footer Separator -->
-
-                <!-- Footer Bottom -->
-                <div>
-                    <div class="global-container">
-                        <div class="flex flex-wrap items-center justify-center gap-5 text-center md:justify-between md:text-left">
-                            <a href="index.html">
-                                <img src="assets-frontend/img/logo-light.png" alt="logo-light" width="111" height="23" />
-                            </a>
-
-                            <p>&copy; Copyright 2024, Todos los Derechos Reservados by Sindicato Guayaramerin</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Bottom -->
-            </div>
-            <!-- Section Container -->
-            <!-- Background Gradient -->
-            <div class="absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#39FF14] to-[#37ff1460] blur-[150px]">
-            </div>
-        </div>
-    </footer>
-    <!--...::: Footer-2 Section End :::... -->
+    
 </div>
 @endsection
