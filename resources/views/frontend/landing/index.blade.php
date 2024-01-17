@@ -185,14 +185,14 @@
                                 y luchar juntos por un futuro más justo y próspero.
                             </p>
                         </div>
-                        <form action="#" method="post" class="jos mt-11 text-base font-bold">
+                        <!-- <form action="#" method="post" class="jos mt-11 text-base font-bold">
                             <div class="relative mx-auto h-[60px] max-w-[500px] overflow-hidden rounded">
                                 <input type="email" placeholder="Ingresa tu email" class="h-full w-full bg-colorCodGray px-6 pr-[150px]" required />
                                 <button type="submit" class="button absolute right-0 top-0 inline-block h-full rounded border-none bg-colorGreen py-0 text-black after:border-none after:bg-white">
                                     Empezar
                                 </button>
                             </div>
-                        </form>
+                        </form> -->
                         <!-- <div class="jos mt-4 flex items-center justify-center gap-x-[10px] text-center text-base">
                             <img src="assets-frontend/img/th-4/icon-green-badge-check.svg" alt="icon-green-badge-check.svg" width="20" height="20" class="inline-block" />
                             <p>
@@ -324,7 +324,7 @@
                     <!-- Section Content Block -->
                     <div class="jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]">
                         <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[70px]">
-                        Obtén todas las herramientas para abordar la seguridad en el transporte
+                            Get all the tools to tackle cybersecurity together
                         </h2>
                     </div>
                     <!-- Section Content Block -->
@@ -737,7 +737,7 @@
                     </div>
                     <!-- Testimonial Item -->
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
@@ -761,7 +761,7 @@
                     </div>
                     <!-- Testimonial Item -->
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
@@ -785,7 +785,7 @@
                     </div>
                     <!-- Testimonial Item -->
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
@@ -809,7 +809,7 @@
                     </div>
                     <!-- Testimonial Item -->
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
@@ -834,7 +834,7 @@
                     </div>
                     <!-- Testimonial Item -->
                     <!-- Testimonial Item -->
-                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white">
+                    <div class="flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-black">
                         <div class="block">
                             <img src="assets-frontend/img/th-4/icon-green-rating.svg" alt="rating" width="146" height="25" />
                         </div>
