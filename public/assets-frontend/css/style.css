@@ -1975,6 +1975,11 @@ h5 {
   background-color: #FF7414;
 }
 
+.bg-verdeBandera {
+  --tw-bg-opacity: 1;
+  background-color: #008f39 ;
+}
+
 .bg-colorLinenRuffle {
   --tw-bg-opacity: 1;
   background-color: rgb(239 234 227 / var(--tw-bg-opacity));

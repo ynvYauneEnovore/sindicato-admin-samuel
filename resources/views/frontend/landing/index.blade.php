@@ -29,7 +29,7 @@
                             <div class="mobile-menu-close">&times;</div>
                         </div>
                         <ul class="site-menu-main is-text-white">
-                        <li class="nav-item">
+                            <li class="nav-item">
                                 <a href="about.html" class="nav-link-item">Inicio</a>
                             </li>
                             <li class="nav-item nav-item-has-children">
@@ -50,7 +50,7 @@
                                     </li>
                                 </ul>
                             </li>
-                          
+
                             <li class="nav-item nav-item-has-children">
                                 <a href="#" class="nav-link-item drop-trigger">Nosotros
                                     <img class="dropdown-icon" src="assets-frontend/img/icon-black-cheveron-right.svg" alt="cheveron-right" width="16" height="16" /></a>
@@ -154,7 +154,7 @@
 
                 <!-- Header User Event -->
                 <div class="flex items-center gap-6">
-                    <a href="{{ asset('login') }}" class="button hidden h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white lg:inline-block">Acceder</a>
+                    <a href="{{ asset('login') }}" class="button hidden h-full rounded border-none bg-verdeBandera py-3 text-base text-black after:border-none after:bg-white lg:inline-block">Acceder</a>
                     <div class="block lg:hidden">
                         <button class="mobile-menu-trigger is-white">
                             <span></span>
@@ -179,9 +179,9 @@
                             Sindicato de Transporte
                         </h1>
                         <div class="mx-auto max-w-[1090px]">
-                            <p class="leading-[1.33] lg:text-xl xl:text-2xl bg-black rounded-full" style="padding: 20px;">
-                                Descubre nuestros logros, eventos y noticias del sector del transporte  <br>
-                                explorando nuestro sitio. Únete a nosotros para fortalecer la comunidad  <br>
+                            <p class="leading-[1.33] lg:text-xl xl:text-2xl bg-colorGreen rounded-full" style="padding: 20px;">
+                                Descubre nuestros logros, eventos y noticias del sector del transporte <br>
+                                explorando nuestro sitio. Únete a nosotros para fortalecer la comunidad <br>
                                 y luchar juntos por un futuro más justo y próspero.
                             </p>
                         </div>
@@ -193,13 +193,13 @@
                                 </button>
                             </div>
                         </form>
-                        <div class="jos mt-4 flex items-center justify-center gap-x-[10px] text-center text-base">
+                        <!-- <div class="jos mt-4 flex items-center justify-center gap-x-[10px] text-center text-base">
                             <img src="assets-frontend/img/th-4/icon-green-badge-check.svg" alt="icon-green-badge-check.svg" width="20" height="20" class="inline-block" />
                             <p>
                                 Al registrarse, aceptas nuestra
                                 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer" class="underline hover:text-colorGreen">Términos y Condiciones.</a>
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- Section Container -->
                 </div>
@@ -279,26 +279,24 @@
                         <div class="jos" data-jos_animation="fade-right">
                             <!-- Section Content Block -->
                             <div class="mb-6">
-                                <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[70px]">
-                                    Securing networks, servers and data
+                                <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[60px]">
+                                    Conectando Ciudades, Facilitando Viajes
                                 </h2>
                             </div>
                             <!-- Section Content Block -->
 
                             <div>
                                 <p class="mb-8 text-lg leading-[1.42] last:mb-0 lg:text-[21px]">
-                                    Large corporations & businesses across industries use our
-                                    AI cybersecurity solutions to safeguard their networks,
-                                    servers, & data from cyber threats.
+                                    Empresas de transporte confían en nuestras soluciones para conectar ciudades,
+                                    brindando viajes seguros y eficientes a lo largo del país.
                                 </p>
                                 <p class="mb-8 text-lg leading-[1.42] last:mb-0 lg:text-[21px]">
-                                    Our cyber security platform supercharges your security
-                                    with AI-powered security tools. Turn mountains of data
-                                    into actionable insights and respond in real-time.
+                                    Nuestra plataforma de transporte utiliza tecnología avanzada para optimizar
+                                    rutas, gestionar flotas y garantizar una experiencia sin contratiempos.
                                 </p>
 
-                                <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="button inline-block h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white">Explore
-                                    the Platform</a>
+                                <!-- <a href="https://www.example.com" target="_blank" rel="noopener noreferrer" class="button inline-block h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white">Explore
+                                    the Platform</a> -->
                             </div>
                         </div>
                     </div>
@@ -313,7 +311,7 @@
 
         <!-- Separator -->
         <div class="global-container overflow-hidden">
-            <div class="h-[1px] w-full bg-[#363636]"></div>
+            <div class="h-[1px] w-full bg-colorGreen"></div>
         </div>
         <!-- Separator -->
 
@@ -325,8 +323,8 @@
                 <div class="global-container">
                     <!-- Section Content Block -->
                     <div class="jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]">
-                        <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]">
-                            Get all the tools to tackle cybersecurity together
+                        <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[70px]">
+                        Obtén todas las herramientas para abordar la seguridad en el transporte
                         </h2>
                     </div>
                     <!-- Section Content Block -->
@@ -334,7 +332,7 @@
                     <!-- Service List -->
                     <ul class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                         <!-- Service Item -->
-                        <li class="jos group rounded-[10px] bg-[#121212] p-[30px]" data-jos_delay="0.1">
+                        <li class="jos group rounded-[10px] bg-colorGreen p-[30px]" data-jos_delay="0.1">
                             <div class="mb-8 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
                                     <img src="assets-frontend/img/th-4/icon-green-service-1.svg" alt="icon-green-service" width="50" height="50" class="h-full w-auto" />
@@ -355,7 +353,7 @@
                         </li>
                         <!-- Service Item -->
                         <!-- Service Item -->
-                        <li class="jos group rounded-[10px] bg-[#121212] p-[30px]" data-jos_delay="0.2">
+                        <li class="jos group rounded-[10px] bg-colorGreen p-[30px]" data-jos_delay="0.2">
                             <div class="mb-8 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
                                     <img src="assets-frontend/img/th-4/icon-green-service-2.svg" alt="icon-green-service" width="50" height="50" class="h-full w-auto" />
@@ -376,7 +374,7 @@
                         </li>
                         <!-- Service Item -->
                         <!-- Service Item -->
-                        <li class="jos group rounded-[10px] bg-[#121212] p-[30px]" data-jos_delay="0.3">
+                        <li class="jos group rounded-[10px] bg-colorGreen p-[30px]" data-jos_delay="0.3">
                             <div class="mb-8 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
                                     <img src="assets-frontend/img/th-4/icon-green-service-3.svg" alt="icon-green-service" width="50" height="50" class="h-full w-auto" />
@@ -397,7 +395,7 @@
                         </li>
                         <!-- Service Item -->
                         <!-- Service Item -->
-                        <li class="jos group rounded-[10px] bg-[#121212] p-[30px]" data-jos_delay="0.4">
+                        <li class="jos group rounded-[10px] bg-colorGreen p-[30px]" data-jos_delay="0.4">
                             <div class="mb-8 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
                                     <img src="assets-frontend/img/th-4/icon-green-service-4.svg" alt="icon-green-service" width="50" height="50" class="h-full w-auto" />
@@ -418,7 +416,7 @@
                         </li>
                         <!-- Service Item -->
                         <!-- Service Item -->
-                        <li class="jos group rounded-[10px] bg-[#121212] p-[30px]" data-jos_delay="0.5">
+                        <li class="jos group rounded-[10px] bg-colorGreen p-[30px]" data-jos_delay="0.5">
                             <div class="mb-8 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
                                     <img src="assets-frontend/img/th-4/icon-green-service-5.svg" alt="icon-green-service" width="50" height="50" class="h-full w-auto" />
@@ -439,7 +437,7 @@
                         </li>
                         <!-- Service Item -->
                         <!-- Service Item -->
-                        <li class="jos group rounded-[10px] bg-[#121212] p-[30px]" data-jos_delay="0.6">
+                        <li class="jos group rounded-[10px] bg-colorGreen p-[30px]" data-jos_delay="0.6">
                             <div class="mb-8 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
                                     <img src="assets-frontend/img/th-4/icon-green-service-6.svg" alt="icon-green-service" width="50" height="50" class="h-full w-auto" />
@@ -473,26 +471,22 @@
             <div class="bg-colorGreen py-5">
                 <div class="horizontal-slide-from-left-to-right grid grid-flow-col whitespace-nowrap">
                     <div class="flex text-4xl font-bold uppercase leading-5 text-black">
-                        #cybersecurity #hacking #tech #programming #coding
+                        #transporte #viajes #logística #flotadevehículos
                     </div>
                     <div class="flex text-4xl font-bold uppercase leading-5 text-black">
-                        #cybersecurity #hacking #tech #programming #coding
+                        #transporte #conexión #ciudades #serviciodecalidad
                     </div>
                     <div class="flex text-4xl font-bold uppercase leading-5 text-black">
-                        #cybersecurity #hacking #tech #programming #coding
+                        #logísticaeficiente #seguridad #viajessinpreocupaciones
                     </div>
                 </div>
             </div>
         </div>
         <!--...::: Text Slide Section End :::... -->
 
-
-
-
-
         <!-- Separator -->
         <div class="global-container overflow-hidden">
-            <div class="h-[1px] w-full bg-[#363636]"></div>
+            <div class="h-[1px] w-full bg-colorGreen"></div>
         </div>
         <!-- Separator -->
 
@@ -504,7 +498,7 @@
                 <div class="global-container">
                     <!-- Section Content Block -->
                     <div class="jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]">
-                        <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]">
+                        <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[70px]">
                             Our experts are able to answer all your questions
                         </h2>
                     </div>
@@ -512,7 +506,7 @@
                     <!-- Accordion-->
                     <ul class="accordion flex flex-col gap-y-6">
                         <!-- Accordion items -->
-                        <li class="jos accordion-item is-2 rounded-[10px] bg-[#121212] px-7 py-[30px] active" data-jos_delay="0.1">
+                        <li class="jos accordion-item is-2 rounded-[10px] bg-colorGreen px-7 py-[30px] active" data-jos_delay="0.1">
                             <div class="accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl">
                                 <h5 class="font-spaceGrotesk text-white">
                                     What is AI cybersecurity, and how does it differ from
@@ -533,7 +527,7 @@
                         </li>
                         <!-- Accordion items -->
                         <!-- Accordion items -->
-                        <li class="jos accordion-item is-2 rounded-[10px] bg-[#121212] px-7 py-[30px]" data-jos_delay="0.1">
+                        <li class="jos accordion-item is-2 rounded-[10px] bg-colorGreen px-7 py-[30px]" data-jos_delay="0.1">
                             <div class="accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl">
                                 <h5 class="font-spaceGrotesk text-white">
                                     What types of threats can AI cybersecurity protect
@@ -554,7 +548,7 @@
                         </li>
                         <!-- Accordion items -->
                         <!-- Accordion items -->
-                        <li class="jos accordion-item is-2 rounded-[10px] bg-[#121212] px-7 py-[30px]" data-jos_delay="0.1">
+                        <li class="jos accordion-item is-2 rounded-[10px] bg-colorGreen px-7 py-[30px]" data-jos_delay="0.1">
                             <div class="accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl">
                                 <h5 class="font-spaceGrotesk text-white">
                                     How does AI help in threat detection and prevention?
@@ -574,7 +568,7 @@
                         </li>
                         <!-- Accordion items -->
                         <!-- Accordion items -->
-                        <li class="jos accordion-item is-2 rounded-[10px] bg-[#121212] px-7 py-[30px]" data-jos_delay="0.1">
+                        <li class="jos accordion-item is-2 rounded-[10px] bg-colorGreen px-7 py-[30px]" data-jos_delay="0.1">
                             <div class="accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl">
                                 <h5 class="font-spaceGrotesk text-white">
                                     Is AI cybersecurity effective against zero-day attacks?
@@ -594,7 +588,7 @@
                         </li>
                         <!-- Accordion items -->
                         <!-- Accordion items -->
-                        <li class="jos accordion-item is-2 rounded-[10px] bg-[#121212] px-7 py-[30px]" data-jos_delay="0.1">
+                        <li class="jos accordion-item is-2 rounded-[10px] bg-colorGreen px-7 py-[30px]" data-jos_delay="0.1">
                             <div class="accordion-header mb-[10px] flex items-center justify-between text-xl leading-[1.33] -tracking-[1px] lg:text-3xl">
                                 <h5 class="font-spaceGrotesk text-white">
                                     What is the role of human cybersecurity professionals in
@@ -633,7 +627,7 @@
                         <!-- Section Content Block -->
                         <div class="jos max-w-[480px] lg:max-w-2xl xl:max-w-[840px]">
                             <h2 class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-black sm:text-[44px] lg:text-[56px] xl:text-[70px]">
-                               Rutas en movimiento
+                                Rutas en movimiento
                             </h2>
                         </div>
                         <!-- Section Content Block -->
@@ -868,9 +862,6 @@
             </div>
         </section>
         <!--...::: Testimonial Section End :::... -->
-
     </main>
-
-    
 </div>
 @endsection
